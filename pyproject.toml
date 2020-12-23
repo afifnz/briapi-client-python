@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "briapi-client-python"
+version = "0.1.0"
+description = ""
+authors = ["Achmad Nurzein <afifnz@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests-oauthlib = "^1.3.0"
+ipython = "^7.19.0"
+six = "^1.15.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
